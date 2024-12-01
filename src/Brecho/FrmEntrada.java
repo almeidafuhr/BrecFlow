@@ -152,6 +152,7 @@ public class FrmEntrada extends JFrame {
         LBvalor.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
         LBvalor.setText("Valor");
 
+        FTFvalor.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat(""))));
         FTFvalor.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         FTFvalor.setToolTipText("Valor unitario (Utilizar \".\")");
         FTFvalor.setEnabled(false);
