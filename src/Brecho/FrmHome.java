@@ -328,7 +328,7 @@ public class FrmHome extends JFrame {
                 relatorio.add(new Paragraph(new Phrase(15F, "ITEM: " + rs.getString("Descricao_Item"), 
                         FontFactory.getFont(FontFactory.COURIER,11F))));
                 
-                relatorio.add(new Paragraph(new Phrase(15F, "QUANTIDADE" + rs.getString("Qtd_Saida"), 
+                relatorio.add(new Paragraph(new Phrase(15F, "QUANTIDADE: " + rs.getString("Qtd_Saida"), 
                         FontFactory.getFont(FontFactory.COURIER,11F))));
                 
                 relatorio.add(new Paragraph(new Phrase(15F, "VALOR: R$ " + rs.getString("Valor_Saida"), 

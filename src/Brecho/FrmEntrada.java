@@ -152,9 +152,9 @@ public class FrmEntrada extends JFrame {
         LBvalor.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
         LBvalor.setText("Valor");
 
-        FTFvalor.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat(""))));
+        FTFvalor.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0.00"))));
         FTFvalor.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        FTFvalor.setToolTipText("Valor unitario (Utilizar \".\")");
+        FTFvalor.setToolTipText("Valor");
         FTFvalor.setEnabled(false);
         FTFvalor.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
@@ -369,7 +369,7 @@ public class FrmEntrada extends JFrame {
         else
         {
             try {
-                if(Float.parseFloat(FTFvalor.getText()) > 0){
+                if(Float.parseFloat(FTFvalor.getText().replace(",", ".")) > 0){
                     BTatualizar.setEnabled(true);
                 }
             } catch (NumberFormatException ex) {
@@ -470,7 +470,7 @@ public class FrmEntrada extends JFrame {
         DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");  //Formatação de Data  
         LocalDate data = LocalDate.now();  //Data atual
         int qtd_item = Integer.parseInt(FTFquantidade.getText());  //Quantidade de Itens
-        float valor = Float.parseFloat(FTFvalor.getText());  //Valor unitário
+        float valor = Float.parseFloat(FTFvalor.getText().replace(",", "."));  //Valor unitário
         
         //String de consulta
         String sqlInsert = "INSERT INTO ENTRADA (ID_ITEM,Data_Entrada,Qtd_Entrada,Valor_Entrada) VALUES (?,?,?,?);";

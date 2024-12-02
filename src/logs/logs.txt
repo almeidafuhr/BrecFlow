@@ -1,0 +1,21 @@
+02/12/2024 02:03:20 Usuário G Criado!
+02/12/2024 02:03:29 Usuário G Conectado!
+02/12/2024 02:03:47 Usuário G Desconectado!
+02/12/2024 02:08:45 Usuário G Conectado!
+02/12/2024 02:08:56 Usuário G Atualizou o item de id 1, gerando entrada de 5 itens no estoque.
+02/12/2024 02:09:01 Usuário G gerou um relatório!
+02/12/2024 02:09:09 Usuário G Desconectado!
+02/12/2024 02:11:14 Usuário G Conectado!
+02/12/2024 02:11:40 Usuário G Atualizou o item de id 1, gerando saída de 5 itens no estoque.
+02/12/2024 02:11:43 Usuário G gerou um relatório!
+02/12/2024 02:12:00 Usuário G Desconectado!
+02/12/2024 02:12:14 Usuário G Conectado!
+02/12/2024 02:12:22 Usuário G Atualizou o item de id 1, gerando entrada de 5 itens no estoque.
+02/12/2024 02:12:26 Usuário G gerou um relatório!
+02/12/2024 02:12:37 Usuário G Desconectado!
+02/12/2024 02:13:59 Usuário G Conectado!
+02/12/2024 02:14:10 Usuário G Atualizou o item de id 1, gerando entrada de 1 itens no estoque.
+02/12/2024 02:14:30 Usuário G Atualizou o item de id 1, gerando saída de 20 itens no estoque.
+02/12/2024 02:14:33 Usuário G gerou um relatório!
+02/12/2024 02:14:44 Usuário G gerou um relatório!
+02/12/2024 02:14:57 Usuário G Desconectado!
